@@ -45,15 +45,31 @@ body {
  
 }
 
-.one, .two, .three {
+button {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    font-size: 24px;
+    color: #b45309;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f59e0b;
+    border: 2px solid #b45309;
+    border-radius: 5px;
+   
+}
+
+/* .one, .two, .three {
     height: 45px;
     width: 45px;
     display: flex;
     font-size: 24px;
     justify-content: center;
     align-items: center;
-
+    
 
     border: 2px solid #b45309;
     border-radius: 5px;
 }
+*/
