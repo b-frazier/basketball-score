@@ -26,3 +26,25 @@ function addOneAway(){
     awayScoreEl.textContent = awayScore
 }
 
+function addTwoAway(){
+    awayScore += 2
+    awayScoreEl.textContent = awayScore
+}
+
+function addThreeAway(){
+    awayScore += 3
+    awayScoreEl.textContent = awayScore
+}
+
+let newGame = document.getElementById('new-game')
+
+function reset(){
+    homeScore = 0
+    homeScoreEl.textContent = homeScore
+    awayScore = 0
+    awayScoreEl.textContent = awayScore
+}
+
+// included a reset to set scores back to zero. 
+// used context clues from other button code the reset.
+

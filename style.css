@@ -60,16 +60,16 @@ button {
    
 }
 
-/* .one, .two, .three {
-    height: 45px;
-    width: 45px;
+#new-game{
+    width: 200px;
+    margin: 0 auto;
     display: flex;
-    font-size: 24px;
     justify-content: center;
     align-items: center;
-    
-
-    border: 2px solid #b45309;
-    border-radius: 5px;
 }
-*/
+
+/* had to use an id selector to override the styles 
+from the button element. i did not plan to add a new game button.
+i don't think styling the buttons by the element was a good choice.
+i originally used their classes but wanted to condense a bit.
+i could re-do it but i made it work well enough for the scope of this practice. */
